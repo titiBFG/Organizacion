@@ -40,5 +40,7 @@ public class Main {
         org.mostrarDonantes();
         // b.6 Mostrar Donaciones ordenadas por fecha
         org.mostrarDonaciones();
+        // b.7 Mostrar Resultado a la fecha 10/11/2023
+        org.mostrarResultadoaFecha(LocalDate.of(2023,11,10));
     }
 }
